@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    background:#202020;
+    overflow:hidden;
+    font-family:Arial, sans-serif;
+}
+
+#game{
+    display:block;
+    margin:auto;
+    border:4px solid white;
+    image-rendering:pixelated;
+}
+
+#ui{
+    position:absolute;
+    left:10px;
+    top:10px;
+    color:white;
+    background:rgba(0,0,0,.5);
+    padding:10px;
+    border-radius:10px;
+}
+
+#stats{
+    position:absolute;
+    right:10px;
+    top:10px;
+    width:220px;
+    color:white;
+    background:rgba(0,0,0,.6);
+    padding:10px;
+    display:none;
+}
+
+#inventory{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:420px;
+    height:300px;
+    background:#333;
+    color:white;
+    border:3px solid white;
+    display:none;
+    padding:10px;
+}
